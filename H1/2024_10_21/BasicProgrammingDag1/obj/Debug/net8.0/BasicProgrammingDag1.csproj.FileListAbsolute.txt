@@ -1,0 +1,14 @@
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\bin\Debug\net8.0\BasicProgrammingDag1.exe
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\bin\Debug\net8.0\BasicProgrammingDag1.deps.json
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\bin\Debug\net8.0\BasicProgrammingDag1.runtimeconfig.json
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\bin\Debug\net8.0\BasicProgrammingDag1.dll
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\bin\Debug\net8.0\BasicProgrammingDag1.pdb
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\BasicProgrammingDag1.GeneratedMSBuildEditorConfig.editorconfig
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\BasicProgrammingDag1.AssemblyInfoInputs.cache
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\BasicProgrammingDag1.AssemblyInfo.cs
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\BasicProgrammingDag1.csproj.CoreCompileInputs.cache
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\BasicProgrammingDag1.dll
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\refint\BasicProgrammingDag1.dll
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\BasicProgrammingDag1.pdb
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\BasicProgrammingDag1.genruntimeconfig.cache
+P:\Languages\C#\2024-10-21\BasicProgrammingDag1\obj\Debug\net8.0\ref\BasicProgrammingDag1.dll

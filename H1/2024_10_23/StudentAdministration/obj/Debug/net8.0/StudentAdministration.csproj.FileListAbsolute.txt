@@ -1,0 +1,14 @@
+P:\Languages\C#\2024-10-23\StudentAdministration\bin\Debug\net8.0\StudentAdministration.exe
+P:\Languages\C#\2024-10-23\StudentAdministration\bin\Debug\net8.0\StudentAdministration.deps.json
+P:\Languages\C#\2024-10-23\StudentAdministration\bin\Debug\net8.0\StudentAdministration.runtimeconfig.json
+P:\Languages\C#\2024-10-23\StudentAdministration\bin\Debug\net8.0\StudentAdministration.dll
+P:\Languages\C#\2024-10-23\StudentAdministration\bin\Debug\net8.0\StudentAdministration.pdb
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\StudentAdministration.GeneratedMSBuildEditorConfig.editorconfig
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\StudentAdministration.AssemblyInfoInputs.cache
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\StudentAdministration.AssemblyInfo.cs
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\StudentAdministration.csproj.CoreCompileInputs.cache
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\StudentAdministration.dll
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\refint\StudentAdministration.dll
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\StudentAdministration.pdb
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\StudentAdministration.genruntimeconfig.cache
+P:\Languages\C#\2024-10-23\StudentAdministration\obj\Debug\net8.0\ref\StudentAdministration.dll

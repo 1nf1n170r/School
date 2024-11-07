@@ -1,0 +1,14 @@
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\Opgavehaefte.GeneratedMSBuildEditorConfig.editorconfig
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\Opgavehaefte.AssemblyInfoInputs.cache
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\Opgavehaefte.AssemblyInfo.cs
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\Opgavehaefte.csproj.CoreCompileInputs.cache
+P:\Languages\C#\2024-10-22\Opgavehaefte\bin\Debug\net8.0\Opgavehaefte.exe
+P:\Languages\C#\2024-10-22\Opgavehaefte\bin\Debug\net8.0\Opgavehaefte.deps.json
+P:\Languages\C#\2024-10-22\Opgavehaefte\bin\Debug\net8.0\Opgavehaefte.runtimeconfig.json
+P:\Languages\C#\2024-10-22\Opgavehaefte\bin\Debug\net8.0\Opgavehaefte.dll
+P:\Languages\C#\2024-10-22\Opgavehaefte\bin\Debug\net8.0\Opgavehaefte.pdb
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\Opgavehaefte.dll
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\refint\Opgavehaefte.dll
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\Opgavehaefte.pdb
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\Opgavehaefte.genruntimeconfig.cache
+P:\Languages\C#\2024-10-22\Opgavehaefte\obj\Debug\net8.0\ref\Opgavehaefte.dll

@@ -1,0 +1,27 @@
+[
+  {
+    "_name": "Johan",
+    "_number": "12345678",
+    "_email": "Joahnmail"
+  },
+  {
+    "_name": "Seb",
+    "_number": "12345678",
+    "_email": "SebMail"
+  },
+  {
+    "_name": "dfgh",
+    "_number": "fghj",
+    "_email": "fgh"
+  },
+  {
+    "_name": "Some Name",
+    "_number": "12345678",
+    "_email": "Some Email"
+  },
+  {
+    "_name": "SOme NAme",
+    "_number": "email@gmail.com",
+    "_email": "12345678"
+  }
+]
