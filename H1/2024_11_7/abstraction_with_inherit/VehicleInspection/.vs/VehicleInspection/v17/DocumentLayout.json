@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|p:\\school\\h1\\2024_11_7\\abstraction_with_inherit\\vehicleinspection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|p:\\school\\h1\\2024_11_7\\abstraction_with_inherit\\vehicleinspection\\iwheels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|solutionrelative:iwheels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|p:\\school\\h1\\2024_11_7\\abstraction_with_inherit\\vehicleinspection\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|p:\\school\\h1\\2024_11_7\\abstraction_with_inherit\\vehicleinspection\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|solutionrelative:truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|p:\\school\\h1\\2024_11_7\\abstraction_with_inherit\\vehicleinspection\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F897EC8F-4B41-4DDC-8968-A12277036C2F}|VehicleInspection.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Car.cs",
+              "RelativeDocumentMoniker": "Car.cs",
+              "ToolTip": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Car.cs",
+              "RelativeToolTip": "Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:04:32.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Truck.cs",
+              "RelativeDocumentMoniker": "Truck.cs",
+              "ToolTip": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Truck.cs",
+              "RelativeToolTip": "Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:03:52.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:02:58.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IWheels.cs",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\IWheels.cs",
+              "RelativeDocumentMoniker": "IWheels.cs",
+              "ToolTip": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\IWheels.cs",
+              "RelativeToolTip": "IWheels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:02:52.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "P:\\School\\H1\\2024_11_7\\abstraction_with_inherit\\VehicleInspection\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:02:51.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
