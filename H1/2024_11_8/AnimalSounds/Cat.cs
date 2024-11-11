@@ -4,9 +4,9 @@ public class Cat : Animal
     {
 
     }
-    public override void MakeSound()
+    public override string MakeSound()
     {
-        System.Console.WriteLine("Meau");
         new System.Media.SoundPlayer(Path.Combine(Environment.CurrentDirectory, @"assets\cat.wav")).PlaySync();
+        return "Meau";
     }
 }

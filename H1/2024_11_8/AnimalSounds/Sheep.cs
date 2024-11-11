@@ -4,9 +4,9 @@ public class Sheep : Animal
     {
 
     }
-    public override void MakeSound()
+    public override string MakeSound()
     {
-        System.Console.WriteLine("Baaaaa");
         new System.Media.SoundPlayer(Path.Combine(Environment.CurrentDirectory, @"assets\sheep.wav")).PlaySync();
+        return "Baaaaa";
     }
 }

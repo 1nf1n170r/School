@@ -4,9 +4,9 @@ public class Dog : Animal
     {
 
     }
-    public override void MakeSound()
+    public override string MakeSound()
     {
-        System.Console.WriteLine("Vow");
         new System.Media.SoundPlayer(Path.Combine(Environment.CurrentDirectory, @"assets\dog.wav")).PlaySync();
+        return "Vow";
     }
 }

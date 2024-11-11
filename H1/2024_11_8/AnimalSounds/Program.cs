@@ -2,6 +2,6 @@
 var dog = AnimalFactory.CreateAnimal(EnumAnimal.Dog, "DogName");
 var sheep = AnimalFactory.CreateAnimal(EnumAnimal.Sheep, "SheepName");
 
-cat.MakeSound();
-dog.MakeSound();
-sheep.MakeSound();
+Console.WriteLine(cat.MakeSound());
+Console.WriteLine(dog.MakeSound());
+Console.WriteLine(sheep.MakeSound());
