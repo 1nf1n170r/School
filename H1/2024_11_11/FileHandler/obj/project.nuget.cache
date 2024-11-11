@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MVEqVdeqpVQ=",
+  "success": true,
+  "projectFilePath": "P:\\School\\H1\\2024_11_11\\FileHandler\\FileHandler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ejer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

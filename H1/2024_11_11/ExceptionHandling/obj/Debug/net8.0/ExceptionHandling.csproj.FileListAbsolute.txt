@@ -1,0 +1,15 @@
+P:\School\H1\2024_11_11\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.exe
+P:\School\H1\2024_11_11\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.deps.json
+P:\School\H1\2024_11_11\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.runtimeconfig.json
+P:\School\H1\2024_11_11\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.dll
+P:\School\H1\2024_11_11\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.pdb
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfoInputs.cache
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfo.cs
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.sourcelink.json
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.dll
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\refint\ExceptionHandling.dll
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.pdb
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.genruntimeconfig.cache
+P:\School\H1\2024_11_11\ExceptionHandling\obj\Debug\net8.0\ref\ExceptionHandling.dll

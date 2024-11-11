@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\School\\H1\\2024_11_11\\FileHandler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{391DA3B2-73B3-436A-A8D1-255AC3E75395}|FileHandler.csproj|p:\\school\\h1\\2024_11_11\\filehandler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391DA3B2-73B3-436A-A8D1-255AC3E75395}|FileHandler.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391DA3B2-73B3-436A-A8D1-255AC3E75395}|FileHandler.csproj|p:\\school\\h1\\2024_11_11\\filehandler\\assets\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{391DA3B2-73B3-436A-A8D1-255AC3E75395}|FileHandler.csproj|solutionrelative:assets\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391DA3B2-73B3-436A-A8D1-255AC3E75395}|FileHandler.csproj|p:\\school\\h1\\2024_11_11\\filehandler\\lib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391DA3B2-73B3-436A-A8D1-255AC3E75395}|FileHandler.csproj|solutionrelative:lib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lib.cs",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_11\\FileHandler\\Lib.cs",
+              "RelativeDocumentMoniker": "Lib.cs",
+              "ToolTip": "P:\\School\\H1\\2024_11_11\\FileHandler\\Lib.cs",
+              "RelativeToolTip": "Lib.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:53:10.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "users.json",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_11\\FileHandler\\assets\\users.json",
+              "RelativeDocumentMoniker": "assets\\users.json",
+              "ToolTip": "P:\\School\\H1\\2024_11_11\\FileHandler\\assets\\users.json",
+              "RelativeToolTip": "assets\\users.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T10:42:54.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\School\\H1\\2024_11_11\\FileHandler\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "P:\\School\\H1\\2024_11_11\\FileHandler\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAhwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:02:33.82Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
