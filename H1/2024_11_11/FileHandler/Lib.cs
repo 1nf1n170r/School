@@ -66,7 +66,7 @@ namespace Lib
             return Parser.Parse<T>(ans ?? "");
         }
 
-        public static T AskReg<T>(string question, Regex pattern, bool newline, Func<Exception, Exception?> exceptionHandler, ConsoleColor quColor = ConsoleColor.DarkBlue, ConsoleColor ansColor = ConsoleColor.Green, ConsoleColor errorColor = ConsoleColor.Red)
+        public static T AskCond<T>(string question, Func<string, bool> func, bool newline, Func<Exception, Exception?> exceptionHandler, ConsoleColor quColor = ConsoleColor.DarkBlue, ConsoleColor ansColor = ConsoleColor.Green, ConsoleColor errorColor = ConsoleColor.Red)
         {
             var originalColor = Console.ForegroundColor;
 
@@ -100,7 +100,7 @@ namespace Lib
                     if (keyInfo.Key == ConsoleKey.Enter)
                     {
                         var input = inputBuilder.ToString();
-                        if (pattern.IsMatch(input))
+                        if (func(input))
                         {
                             T? parsedValue;
                             if ((parsedValue = Parser.Parse<T>(input)) != null)
@@ -132,7 +132,7 @@ namespace Lib
                         Console.Write(keyChar);
                     }
                     string currentInput = inputBuilder.ToString();
-                    bool isInputValid = pattern.IsMatch(currentInput);
+                    bool isInputValid = func(currentInput);
 
                     if (isInputValid || currentInput.Length == 0)
                         Console.ForegroundColor = ansColor;

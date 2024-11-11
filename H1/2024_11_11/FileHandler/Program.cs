@@ -1,4 +1,6 @@
 ﻿using Newtonsoft.Json;
+using System.Text.RegularExpressions;
+using System.Xml.Linq;
 
 namespace program;
 
@@ -52,6 +54,7 @@ internal class Program{
         using var users = new Users(@"P:\School\H1\2024_11_11\FileHandler\assets\users.json");
         if (!users.IsValid)
             Console.WriteLine("Could not find users.json >> Creating user.json");
+        const string BYPASS = "niels olesen";
         do
         {
             try
@@ -60,34 +63,36 @@ internal class Program{
                 if (Console.ReadKey().Key != ConsoleKey.Y)
                     break;
                 Console.WriteLine();
-                var user = new User
+                var name = Lib.Input.AskCond<string>("Name: ", (i) => { return new Regex(@"^[A-Za-z\s]+$").IsMatch(i); }, false, (e) =>
                 {
-                    Name = Lib.Input.AskReg<string>("Name: ", new(@"^[A-Za-z\s]+$"), false, (e) =>
+                    return e switch
                     {
-                        return e switch
-                        {
-                            ArgumentException => new InvalidNameException(e.Message),
-                            _ => null,
-                        };
-                    }),
-                    Age = Lib.Input.AskReg<uint>("Age: ", new(@"^(1[89]|[2-4][0-9]|50)$"), false, (e) =>
+                        ArgumentException => new InvalidNameException(e.Message),
+                        _ => null,
+                    };
+                });
+                var age = Lib.Input.AskCond<uint>("Age: ", (i) => { return new Regex(@"^(1[89]|[2-4][0-9]|50)$").IsMatch(i) || name.ToLower() == BYPASS; }, false, (e) =>
+                {
+                    return e switch
                     {
-                        return e switch
-                        {
-                            ArgumentException => new InvalidAgeException(e.Message),
-                            _ => null,
-                        };
-                    }),
-                    Email = Lib.Input.AskReg<string>("Email: ", new(@"@.*\."), false, (e) =>
+                        ArgumentException when name.ToLower() != BYPASS => new InvalidAgeException(e.Message),
+                        _ => null,
+                    };
+                });
+                var email = Lib.Input.AskCond<string>("Email: ", (i) => { return new Regex(@"@.*\.").IsMatch(i); }, false, (e) =>
+                {
+                    return e switch
                     {
-                        return e switch
-                        {
-                            ArgumentException => new InvalidEmailException(e.Message),
-                            _ => null,
-                        };
-                    })
-                };
-                users.Add(user);
+                        ArgumentException => new InvalidEmailException(e.Message),
+                        _ => null,
+                    };
+                });
+                users.Add(new User
+                {
+                    Name = name,
+                    Age = age,
+                    Email = email,
+                });
             }
             catch (InvalidNameException)
             {
