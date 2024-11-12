@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
+using System.Data.Common;
 using System.Text.RegularExpressions;
-using System.Xml.Linq;
 
 namespace program;
 
@@ -19,10 +19,17 @@ public class InvalidEmailException : Exception
     public InvalidEmailException(string msg, Exception inner) : base(msg, inner) { }
     public InvalidEmailException(string msg) : base(msg) { }
 }
-public struct User{
-    public string Name {get; set;}
-    public uint Age {get; set;}
-    public string Email {get; set;}
+public struct User : IComparable<User>
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public uint Age { get; set; }
+    public string Email { get; set; }
+
+    public readonly int CompareTo(User other)
+    {
+        return LastName.CompareTo(other.LastName);
+    }
 };
 public class Users : IDisposable
 {
@@ -38,19 +45,21 @@ public class Users : IDisposable
     }
     public void Dispose()
     {
-         var json = JsonConvert.SerializeObject(m_users, Formatting.Indented);
+        var json = JsonConvert.SerializeObject(m_users, Formatting.Indented);
         if (!IsValid)
             File.Create(m_path);
         File.WriteAllText(m_path, json);
     }
-    
     public void Add(User user)
     {
         this.m_users.Add(user);
+        this.m_users.Sort();
     }
 }
-internal class Program{
-    static void Main(){
+internal class Program
+{
+    static void Main()
+    {
         using var users = new Users(@"P:\School\H1\2024_11_11\FileHandler\assets\users.json");
         if (!users.IsValid)
             Console.WriteLine("Could not find users.json >> Creating user.json");
@@ -63,7 +72,7 @@ internal class Program{
                 if (Console.ReadKey().Key != ConsoleKey.Y)
                     break;
                 Console.WriteLine();
-                var name = Lib.Input.AskCond<string>("Name: ", (i) => { return new Regex(@"^[A-Za-z\s]+$").IsMatch(i); }, false, (e) =>
+                var firstname = Lib.Input.AskCond<string>("Name: ", (i) => { return new Regex(@"^[A-Za-z\s]+$").IsMatch(i); }, false, (e) =>
                 {
                     return e switch
                     {
@@ -71,11 +80,19 @@ internal class Program{
                         _ => null,
                     };
                 });
-                var age = Lib.Input.AskCond<uint>("Age: ", (i) => { return new Regex(@"^(1[89]|[2-4][0-9]|50)$").IsMatch(i) || name.ToLower() == BYPASS; }, false, (e) =>
+                var lastname = Lib.Input.AskCond<string>("Name: ", (i) => { return new Regex(@"^[A-Za-z]+$").IsMatch(i); }, false, (e) =>
                 {
                     return e switch
                     {
-                        ArgumentException when name.ToLower() != BYPASS => new InvalidAgeException(e.Message),
+                        ArgumentException => new InvalidNameException(e.Message),
+                        _ => null,
+                    };
+                });
+                var age = Lib.Input.AskCond<uint>("Age: ", (i) => { return new Regex(@"^(1[89]|[2-4][0-9]|50)$").IsMatch(i) || (firstname + " " + lastname).Equals(BYPASS, StringComparison.CurrentCultureIgnoreCase); }, false, (e) =>
+                {
+                    return e switch
+                    {
+                        ArgumentException when !(firstname + " " + lastname).Equals(BYPASS, StringComparison.CurrentCultureIgnoreCase) => new InvalidAgeException(e.Message),
                         _ => null,
                     };
                 });
@@ -89,7 +106,8 @@ internal class Program{
                 });
                 users.Add(new User
                 {
-                    Name = name,
+                    FirstName = firstname,
+                    LastName = lastname,
                     Age = age,
                     Email = email,
                 });
