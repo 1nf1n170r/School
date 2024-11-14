@@ -1,0 +1,275 @@
+[
+  {
+    "Firstname": "Andreas",
+    "LastName": "Lorenzen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Azad",
+    "LastName": "Akdeniz",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Bertram",
+    "LastName": "Estrup Axen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Casper",
+    "LastName": "Clemmensen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Daniel",
+    "LastName": "Bjerre Jensen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Djonatan",
+    "LastName": "Gjertsen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Dylan",
+    "LastName": "Eric Aghahowa",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Hjalte",
+    "LastName": "Moesgaard Leth",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Johan",
+    "LastName": "Milter Jakobsen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Louis",
+    "LastName": "Thomas Dao Pedersen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Lukas",
+    "LastName": "Haugstad Frederiksen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Marcus",
+    "LastName": "Wahlstrøm",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Marcus",
+    "LastName": "Slot Rohr",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Marius",
+    "LastName": "Ulslev Fogelgren",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Mathias",
+    "LastName": "Altenburg",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Patrick",
+    "LastName": "Gutierrez Fogelstrøm",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Ramtin",
+    "LastName": "Akbari",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Sebastian",
+    "LastName": "Tølbøl Nielsen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Simon",
+    "LastName": "Heilbuth",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Thobias",
+    "LastName": "Svarter Hammarkvist",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  },
+  {
+    "Firstname": "Yosef",
+    "LastName": "Kasas",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP",
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering",
+      "Grundlæggende Programmering"
+    ]
+  }
+]

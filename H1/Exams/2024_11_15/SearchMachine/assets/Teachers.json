@@ -1,0 +1,37 @@
+[
+  {
+    "Firstname": "Niels",
+    "LastName": "Olesen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "OOP"
+    ]
+  },
+  {
+    "Firstname": "Michael",
+    "LastName": "Gilbert Hansen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "Computerteknologi",
+      "Serversikkerhed",
+      "Database Programmering",
+      "Clientside Programmering"
+    ]
+  },
+  {
+    "Firstname": "Nikolaj",
+    "LastName": "Bo Fredsoe",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "Serversikkerhed"
+    ]
+  },
+  {
+    "Firstname": "Henrik",
+    "LastName": "V. Paulsen",
+    "Birth": "2024-04-27T15:30:00Z",
+    "Subjects": [
+      "Grundlæggende Programmering"
+    ]
+  }
+]
