@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="movies.css" />
+    <script src="movies.js" defer></script>
+    <title>Star Wars</title>
+  </head>
+  <body>
+  <div class="navbar">
+    <a href="../viewer.html" class="navbar-title">Star Wars</a>
+    <a href="../planets/planets.html">Planets</a>
+    <a href="#">Movies</a>
+    <a href="../charactors/charactors.html">Characters</a>
+  </div>
+
+  <div class="content">
+    <div class="films-container">
+        <h1>Star Wars Movies</h1>
+        <ul id="filmList"></ul>
+      </div>
+    
+      <div class="modal" id="crawlModal">
+        <div class="modal-content">
+          <button class="close-btn" id="modalCloseBtn">&times;</button>
+          <h2 id="modalTitle"></h2>
+          <p id="modalOpeningCrawl"></p>
+        </div>
+      </div>
+  </div>
+  </body>
+</html>

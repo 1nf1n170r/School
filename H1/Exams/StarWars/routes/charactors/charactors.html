@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="charactors.css" />
+    <script src="charactors.js" defer></script>
+    <title>Star Wars</title>
+  </head>
+  <body>
+  <div class="navbar">
+    <a href="../viewer.html" class="navbar-title">Star Wars</a>
+    <a href="../planets/planets.html">Planets</a>
+    <a href="../movies/movies.html">Movies</a>
+    <a href="#">Characters</a>
+  </div>
+
+  <div class="content">
+    <div class="star-wars-container">
+        <h1>Star Wars Characters</h1>
+    
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for a charactor..."
+        />
+    
+        <ul id="characters" class="character-list"></ul>
+    
+        <div class="pagination">
+          <button id="prevBtn">Previous</button>
+          <span id="pageInfo" class="page-info"></span>
+          <button id="nextBtn">Next</button>
+        </div>
+      </div>
+  </div>
+  </body>
+</html>

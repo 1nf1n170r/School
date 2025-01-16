@@ -1,0 +1,42 @@
+@import url('../global.css');
+.navbar {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    border-bottom: 3px solid #FFFF00;
+    overflow: hidden;
+    padding: 10px 0;
+    z-index: 9999;
+  }
+
+  .navbar-title {
+    float: left;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFF00;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .navbar a {
+    float: right;
+    display: block;
+    color: #FFFF00;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .navbar a:hover {
+    background-color: #333;
+    color: #FFFF00;
+  }
+
+  .content {
+    margin-top: 80px; 
+    padding: 20px;
+  }
